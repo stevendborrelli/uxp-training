@@ -193,25 +193,4 @@ CURRENT   NAME      TYPE   ACCOUNT
 *         prodeng   user   prodeng         
 ```
 
-## Logging out of Upbound Cloud
-
-Run `up logout`. This command will clear the `session` field for the currently selected profile:
-
-```console
-up logout -a upbound
-```
-
-This will set the `session` field of the profile to `NONE`:
-
-```json
-}
-    "upbound": {
-        "id": "steven@upbound.io",
-        "type": "user",
-        "session": "NONE",
-        "account": "upbound"
-    }
-}
-```
-
-This lab is complete.
+This completes the lab.
